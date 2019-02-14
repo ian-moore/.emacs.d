@@ -15,7 +15,10 @@
   (package-refresh-contents))
 
 ;; Packages to install
-(setq package-list '(neotree))
+(setq package-list '(ido-completing-read+
+		     magit   ; git integration
+		     neotree ; file tree browser
+		     smex))
 
 ;; Install packages
 (dolist (package package-list)
