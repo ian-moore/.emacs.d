@@ -1,6 +1,8 @@
 (prefer-coding-system 'utf-8)
 
+(load "~/.emacs.d/box.el")
 (load "~/.emacs.d/packages.el")
+
 (load "~/.emacs.d/ido.el")
 
 

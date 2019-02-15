@@ -1,6 +1,8 @@
 *~
 .*.sw[nop]
 .cache
+\#*\#
+.\#*
 
 auto-save-list
 elpa/
