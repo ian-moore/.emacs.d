@@ -8,5 +8,6 @@ auto-save-list
 elpa/
 eshell/history
 eshell/lastdir
+ido.last
 network-security.data
 smex-items
