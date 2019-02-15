@@ -3,9 +3,13 @@
 (load "~/.emacs.d/box.el")
 (load "~/.emacs.d/packages.el")
 
+(load "~/.emacs.d/eshell.el")
 (load "~/.emacs.d/ido.el")
 (load "~/.emacs.d/neotree.el")
 (load "~/.emacs.d/ui.el")
+
+(add-to-list 'exec-path "/usr/local/bin")
+(add-to-list 'exec-path "~/bin")
 
 ;; Don't use tabs
 (setq-default indent-tabs-mode nil)
