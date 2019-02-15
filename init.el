@@ -4,7 +4,8 @@
 (load "~/.emacs.d/packages.el")
 
 (load "~/.emacs.d/ido.el")
-(loan "~/.emacs.d/ui.el")
+(load "~/.emacs.d/neotree.el")
+(load "~/.emacs.d/ui.el")
 
 ;; Don't use tabs
 (setq-default indent-tabs-mode nil)
