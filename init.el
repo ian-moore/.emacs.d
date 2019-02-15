@@ -2,7 +2,14 @@
 
 (load "~/.emacs.d/packages.el")
 
-; M-x auto complete, etc
+
+;; Don't use tabs
+(setq-default indent-tabs-mode nil)
+
+;; don't make lock files
+(setq create-lockfiles nil)
+
+;; M-x auto complete, etc
 (require 'smex)
 (smex-initialize)
 (global-set-key (kbd "M-x") 'smex)
