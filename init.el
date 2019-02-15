@@ -1,6 +1,7 @@
 (prefer-coding-system 'utf-8)
 
 (load "~/.emacs.d/packages.el")
+(load "~/.emacs.d/ido.el")
 
 
 ;; Don't use tabs
